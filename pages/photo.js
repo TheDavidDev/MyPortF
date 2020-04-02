@@ -1,24 +1,18 @@
 import Layout from '../components/Layout';
 
-const Photo = () => 
-    <Layout>
+const Photo = () => (
+  <Layout>
     <div>
+      <h1>Be part of the test</h1>
       
-                      <h1>My Heli Pic</h1>
-                    <h3> | More to come...|  </h3>
-      <img 
-                    src="https://imgur.com/a/vmLC1Wg"
-                    alt="avatar"
-                    className="avatar-img"
-                    />
-      
+          <br/>More info: <a href="mailto=david.lopez@hyperisland.se"> Click here</a>
     </div>
-                    
-                    
+ 
+    
+  </Layout>
+);
 
-   </Layout>
+export default Photo;
 
    
 
-
-export default Index;

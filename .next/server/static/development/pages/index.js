@@ -280,7 +280,7 @@ const Navbar = () => __jsx("nav", {
     columnNumber: 11
   }
 }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  href: "/contact",
+  href: "/Projects",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
@@ -293,6 +293,30 @@ const Navbar = () => __jsx("nav", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 16,
+    columnNumber: 36
+  }
+}, "Projects"))), __jsx("li", {
+  className: "nav-item",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18,
+    columnNumber: 11
+  }
+}, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  href: "/contact",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19,
+    columnNumber: 13
+  }
+}, __jsx("a", {
+  className: "nav-link",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19,
     columnNumber: 35
   }
 }, "Contact")))))));

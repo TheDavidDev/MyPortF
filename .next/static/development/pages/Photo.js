@@ -194,7 +194,7 @@ var Navbar = function Navbar() {
       columnNumber: 11
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/contact",
+    href: "/Projects",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -207,6 +207,30 @@ var Navbar = function Navbar() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16,
+      columnNumber: 36
+    }
+  }, "Projects"))), __jsx("li", {
+    className: "nav-item",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 11
+    }
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/contact",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 13
+    }
+  }, __jsx("a", {
+    className: "nav-link",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
       columnNumber: 35
     }
   }, "Contact")))))));
@@ -4985,7 +5009,7 @@ var Photo = function Photo() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4,
-      columnNumber: 5
+      columnNumber: 3
     }
   }, __jsx("div", {
     __self: _this,
@@ -4998,30 +5022,28 @@ var Photo = function Photo() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 23
+      lineNumber: 6,
+      columnNumber: 7
     }
-  }, "My Heli Pic"), __jsx("h3", {
+  }, "Be part of the test"), __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8,
-      columnNumber: 21
+      columnNumber: 11
     }
-  }, " | More to come...|  "), __jsx("img", {
-    src: "https://imgur.com/a/vmLC1Wg",
-    alt: "avatar",
-    className: "avatar-img",
+  }), "More info: ", __jsx("a", {
+    href: "mailto=david.lopez@hyperisland.se",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 7
+      lineNumber: 8,
+      columnNumber: 27
     }
-  })));
+  }, " Click here")));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Index);
+/* harmony default export */ __webpack_exports__["default"] = (Photo);
 
 /***/ }),
 
