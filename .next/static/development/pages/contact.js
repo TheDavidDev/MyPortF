@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/Photo.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/contact.js"],{
 
 /***/ "./components/Layout.js":
 /*!******************************!*\
@@ -854,21 +854,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FPhoto&absolutePagePath=%2FUsers%2Flopezs%2FDesktop%2FMynew%2FPortfolio%2Fpages%2FPhoto.js!./":
-/*!************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FPhoto&absolutePagePath=%2FUsers%2Flopezs%2FDesktop%2FMynew%2FPortfolio%2Fpages%2FPhoto.js ***!
-  \************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=%2FUsers%2Flopezs%2FDesktop%2FMynew%2FPortfolio%2Fpages%2Fcontact.js!./":
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=%2FUsers%2Flopezs%2FDesktop%2FMynew%2FPortfolio%2Fpages%2Fcontact.js ***!
+  \****************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/Photo", function() {
-      var mod = __webpack_require__(/*! ./pages/Photo.js */ "./pages/Photo.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/contact", function() {
+      var mod = __webpack_require__(/*! ./pages/contact.js */ "./pages/contact.js")
       if(true) {
-        module.hot.accept(/*! ./pages/Photo.js */ "./pages/Photo.js", function() {
-          if(!next.router.components["/Photo"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/Photo.js */ "./pages/Photo.js")
-          next.router.update("/Photo", updatedPage)
+        module.hot.accept(/*! ./pages/contact.js */ "./pages/contact.js", function() {
+          if(!next.router.components["/contact"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/contact.js */ "./pages/contact.js")
+          next.router.update("/contact", updatedPage)
         })
       }
       return mod
@@ -4984,10 +4984,10 @@ try {
 
 /***/ }),
 
-/***/ "./pages/Photo.js":
-/*!************************!*\
-  !*** ./pages/Photo.js ***!
-  \************************/
+/***/ "./pages/contact.js":
+/*!**************************!*\
+  !*** ./pages/contact.js ***!
+  \**************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -4997,64 +4997,142 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
 var _this = undefined,
-    _jsxFileName = "/Users/lopezs/Desktop/Mynew/Portfolio/pages/Photo.js";
+    _jsxFileName = "/Users/lopezs/Desktop/Mynew/Portfolio/pages/contact.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-var Photo = function Photo() {
+var checkUrls = function checkUrls(obj) {
+  switch (obj.name) {
+    case "github":
+      return "https://github.com/".concat(obj.userName);
+
+    case "twitter":
+      return "https://twitter.com/".concat(obj.userName);
+
+    case "linkedin":
+      return "https://www.linkedin.com/in/".concat(obj.userName);
+
+    case "instagram":
+      return "https://www.instagram.com/".concat(obj.userName);
+
+    default:
+      return null;
+  }
+};
+
+var Contact = function Contact() {
   return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4,
+      lineNumber: 22,
       columnNumber: 3
     }
   }, __jsx("div", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
+      lineNumber: 23,
       columnNumber: 5
     }
   }, __jsx("h1", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
+      lineNumber: 24,
       columnNumber: 7
     }
-  }, "Be part of the test"), __jsx("br", {
+  }, "Contact"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
+      lineNumber: 25,
+      columnNumber: 7
+    }
+  }, "David Lopez", __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 10
+    }
+  }), "My", __jsx("a", {
+    href: "mailto:David.Lopez@hyperisland.se",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 17
+    }
+  }, " e-mail"), __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
       columnNumber: 11
     }
-  }), "More info: ", __jsx("a", {
-    href: "mailto=david.lopez@hyperisland.se",
+  }), "Phone : 707780443", __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
+      lineNumber: 28,
+      columnNumber: 11
+    }
+  }), "Facebook: ", __jsx("a", {
+    href: "http://facebook.com/sthlm412",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 26
+    }
+  }, " David.Lopez"), __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 11
+    }
+  }), "Instagram: ", __jsx("a", {
+    href: "http://instagram.com/airheliny",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
       columnNumber: 27
     }
-  }, " Click here")));
+  }, " AirHeliNY"), __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 11
+    }
+  }), "GitHub: ", __jsx("a", {
+    href: "http://github.com/nordicvzlan",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 24
+    }
+  }, " Git it"))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Photo);
+/* harmony default export */ __webpack_exports__["default"] = (Contact);
 
 /***/ }),
 
-/***/ 3:
-/*!****************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2FPhoto&absolutePagePath=%2FUsers%2Flopezs%2FDesktop%2FMynew%2FPortfolio%2Fpages%2FPhoto.js ***!
-  \****************************************************************************************************************************************/
+/***/ 4:
+/*!********************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fcontact&absolutePagePath=%2FUsers%2Flopezs%2FDesktop%2FMynew%2FPortfolio%2Fpages%2Fcontact.js ***!
+  \********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2FPhoto&absolutePagePath=%2FUsers%2Flopezs%2FDesktop%2FMynew%2FPortfolio%2Fpages%2FPhoto.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FPhoto&absolutePagePath=%2FUsers%2Flopezs%2FDesktop%2FMynew%2FPortfolio%2Fpages%2FPhoto.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fcontact&absolutePagePath=%2FUsers%2Flopezs%2FDesktop%2FMynew%2FPortfolio%2Fpages%2Fcontact.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=%2FUsers%2Flopezs%2FDesktop%2FMynew%2FPortfolio%2Fpages%2Fcontact.js!./");
 
 
 /***/ }),
@@ -5070,5 +5148,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=Photo.js.map
+},[[4,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=contact.js.map
