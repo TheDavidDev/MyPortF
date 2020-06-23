@@ -24,7 +24,7 @@ const Contact = () => (
       <h1>Contact</h1>
       <p>David Lopez 
          <br/>My<a href="mailto:David.Lopez@hyperisland.se"> e-mail</a>
-          <br/>Phone : 707780443
+          <br/>Phone : +46 707780443
           <br/>Facebook: <a href="http://facebook.com/sthlm412"> David.Lopez</a>
           <br/>Instagram: <a href="http://instagram.com/airheliny"> AirHeliNY</a>
           <br/>GitHub: <a href="http://github.com/nordicvzlan"> Git it</a>
